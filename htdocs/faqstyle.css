@@ -1,0 +1,74 @@
+*{
+	font-family: "Calibri", Arial; sans-serif;
+	--main-bg-color: rgba(120, 150, 250, .30);
+
+
+}
+ #FAQIntro {
+	 margin: auto;
+	 margin-bottom: 2%;
+	 margin-top: 1%;
+	 width: 85%;
+	 color: Black;
+	 font-size: 100%;
+	 padding: 4px;
+	 font-weight: bold;
+	 text-align: center;
+	 border: 2px none;
+   border-radius: 20px;
+	 background-color: var(--main-bg-color);
+	 background-image: url("FAQBG.png");
+	 background-repeat: no-repeat;
+	 background-size:12% 50%;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+.faqlist a:link{
+    color:black;
+		text-decoration: none;
+}
+.faqlist li:nth-child(even){ background-color: var(--main-bg-color); }
+.faqlist li{
+	font-size: 115%;
+	padding: 1.5%;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 5s; /* Firefox < 16 */
+			 -ms-animation: fadein 5s; /* Internet Explorer */
+				-o-animation: fadein 5s; /* Opera < 12.1 */
+					 animation: fadein 5s;
+}
+
+#LeftCol {
+	float: left;
+	width: 45%;
+	height: 100%;
+	padding-right:0.5%;
+	padding-left: 0.5%;
+}
+#RightCol {
+	float: left;
+	width: 45%;
+	height: 100%;
+	padding-right:0.5%;
+	padding-left: 0.5%;
+}
+
+@keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-o-keyframes fadein { /* Opera */
+    from {opacity:0;}
+    to {opacity: 1;}
+}
