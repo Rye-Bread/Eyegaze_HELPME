@@ -1,0 +1,18 @@
+I wanna make sure I'm up to date:
+1) First make sure you're in the right directory.
+	cd ~/environment/BrewPal
+2) Now use the appropriate command.
+	git pull
+
+I wanna update the github:
+A) I added files.
+	git add filenamehere filenamehere filenamehere
+	git commit
+B) I changed files but didn't add any.
+	git commit -a -m "my message here. This can be blank, but keep the quotes"
+C) I did both
+	git add filenamehere filenamehere filenamehere
+	git commit -a -m  "my message here. This can be blank, but keep the quotes"
+Now,
+	git push
+You'll be asked for your username and password.
