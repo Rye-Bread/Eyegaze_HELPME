@@ -1,11 +1,14 @@
 http://php.net/manual/en/mysqli.examples-basic.php
+Prepared statements using SELECT with mysqli
+https://websitebeaver.com/prepared-statements-in-php-mysqli-to-prevent-sql-injection
+
 
 <?php
 $variable = new mysqli('127.0.0.1', 'your_user', 'your_pass', 'database_name');
 // Oh no! A connect_errno exists so the connection attempt failed!
 if ($mysqli->connect_errno)
 		{
-    // The connection failed. What do you want to do? 
+    // The connection failed. What do you want to do?
     // You could contact yourself (email?), log the error, show a nice page, etc.
     // You do not want to reveal sensitive information
     // Let's try this:
@@ -14,9 +17,9 @@ if ($mysqli->connect_errno)
 		}
 // Perform an SQL query
 $query_name = "SELECT column1, column2, column3 from tablename where condition == true";
-if (!$result = $mysqli->query($query_name)) 
+if (!$result = $mysqli->query($query_name))
 	{
-    // Oh no! The query failed. 
+    // Oh no! The query failed.
     echo "Sorry, the website is experiencing problems.";
 		exit;
 	}
