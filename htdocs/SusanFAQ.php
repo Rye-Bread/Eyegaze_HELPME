@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="susanFAQstyle.css"
+  <link rel="stylesheet" href="susanfaqstyle.css"
   //Use a single forward slash if style sheet is in folder above
   type="text/css" />
   <title>LC Technologies FAQ</title>
@@ -16,7 +16,7 @@
 <div id="LeftCol" class="faqlist">
 	<header><strong>HARDWARE</strong></header>
 	<ol type="1">		
-	  <li><a href="http://localhost/calibration_position.php">Issues with calibration</a></li>
+	  <li><a href="http://localhost/calibration.php">Issues with calibration</a></li>
 	  <li><a href="https://localhost/keyboard_connectivity.php">Keyboard Connectivity</a></li>
 	  <li><a href="https://localhost/camera_connectivity.php">Camera Connectivity</a></li>
 	  <li><a href="https://localhost/error_message.php">Error Messages</a></li>
