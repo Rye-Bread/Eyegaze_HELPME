@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="susanFAQstyle.css"
+  <link rel="stylesheet" href="faqstyle.css"
   //Use a single forward slash if style sheet is in folder above
   type="text/css" />
   <title>LC Technologies</title>

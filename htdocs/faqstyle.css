@@ -34,11 +34,6 @@
 .faqlist li{
 	font-size: 115%;
 	padding: 1.5%;
-	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-			-moz-animation: fadein 5s; /* Firefox < 16 */
-			 -ms-animation: fadein 5s; /* Internet Explorer */
-				-o-animation: fadein 5s; /* Opera < 12.1 */
-					 animation: fadein 5s;
 }
 
 #LeftCol {
@@ -47,6 +42,11 @@
 	height: 100%;
 	padding-right:0.5%;
 	padding-left: 0.5%;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 5s; /* Firefox < 16 */
+			 -ms-animation: fadein 5s; /* Internet Explorer */
+				-o-animation: fadein 5s; /* Opera < 12.1 */
+					 animation: fadein 5s;
 }
 #RightCol {
 	float: left;
@@ -54,6 +54,11 @@
 	height: 100%;
 	padding-right:0.5%;
 	padding-left: 0.5%;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 5s; /* Firefox < 16 */
+			 -ms-animation: fadein 5s; /* Internet Explorer */
+				-o-animation: fadein 5s; /* Opera < 12.1 */
+					 animation: fadein 5s;
 }
 
 @keyframes fadein {
@@ -72,3 +77,16 @@
     from {opacity:0;}
     to {opacity: 1;}
 }
+
+@media only screen and (max-width: 320px) {
+	#FAQIntro{
+		display: none;
+		}
+	#LeftCol{
+		display: none;
+		}
+	#RightCol {
+		display: none;
+		}
+	}
+

@@ -6,14 +6,17 @@
   type="text/css" />
   <title>LC Technologies</title>
   <div id="faq-title" class="faq-title-area">
-    <h2> Wireless Receiver </h2>
+    <h2>Error Messages</h2>
  </h2> <br>
 </div>
 </head>
 <body>
 
 <div id="faq-body" class="faq-body-area">
-Wrong or missing dongle
+	<ol type="1">		
+	  <li><a href="http://localhost/9003error.php">9003 Error</a></li>
+	  <li><a href="http://localhost/9005error.php">9005 Error</a></li>
+	</ol>
 </div>
 
 
