@@ -13,48 +13,43 @@
 <body>
 
 <div id="faq-body" class="faq-body-area">
-	
-	
-	<ul type="1">	
-		<li>Google require additional settings to be active on your account before Grid 3 will connect.</li>
-		<li>Before proceeding disable 2-Step Verification if enabled.</li>
-        <li>In your browser, sign in to Google. Click on your profile image in the top right and select <b>My Account</b>.</li>
+
+		Google require additional settings to be active on your account before Grid 3 will connect.<br> <br>
+		Before proceeding disable 2-Step Verification if enabled.<br> <br>
+        In your browser, sign in to Google. Click on your profile image in the top right and select <b>My Account</b>.<br>
         
         <br>
         
-        <div id="mount-arm-in-clamp-img">
-				<img src="img/james_r.png" alt="james_r">	
+        <div id="setting_gmail_img">
+				<img src="img/james_r.png" alt="james_r" style="width:500px;height:250px;">	
 				
 			</div>
 			
 			<br>
 
         
-        <li>On the My Account page select <b>Sign in & Security</b>. Scroll to the bottom of the page and check the <b>Allow less secure apps</b> toggle is on.</li>
+On the My Account page select <b>Sign in & Security</b>. Scroll to the bottom of the page and check the <b>Allow less secure apps</b> toggle is on.<br>
            <br>
-        <div id="mount-arm-in-clamp-img">
-				<img src="img/on.png" alt="on">	
+        <div id="less-secure-img">
+				<img src="img/on.png" alt="on" style="width:500px;height:190px;">	
 				
 			</div>
 			
 			<br>
 
 
-        <li>On the My Account page select Sign in & Security. Scroll to the bottom of the page and check the Allow less secure apps toggle is on.</li>
-        <li>You may also need to enable <b>IMAP</b> on your account. You can find this toggle on your Gmail settings page:</li>
+On the My Account page select Sign in & Security. Scroll to the bottom of the page and check the Allow less secure apps toggle is on.<br>
+You may also need to enable <b>IMAP</b> on your account. You can find this toggle on your Gmail settings page:<br>
         
         <br>
         
-        <div id="mount-arm-in-clamp-img">
-				<img src="img/imap_access.png" alt="imap_access">	
+        <div id="imap-img">
+				<img src="img/imap_access.png" alt="imap_access" style="width:500px;height:170px;">	
 				
 			</div>
 			
 			<br>
 
-        
-        
-	</ol>
 </div>
 
 <br>

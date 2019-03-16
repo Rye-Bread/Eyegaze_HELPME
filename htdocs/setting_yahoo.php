@@ -14,8 +14,8 @@
 
 <div id="faq-body" class="faq-list">
 <li> To use a Yahoo email account, you may need to allow less secure connections.  </li>
-<li>To find out more information visit: </li>
-<a href="https://help.yahoo.com/kb/SLN27791.html">https://help.yahoo.com/kb/SLN27791.html</a>
+<li>To find out more information visit:
+<a href="https://help.yahoo.com/kb/SLN27791.html">https://help.yahoo.com/kb/SLN27791.html</a> </li>
 </div>
 
 </body>

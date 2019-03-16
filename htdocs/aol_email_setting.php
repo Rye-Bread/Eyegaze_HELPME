@@ -12,29 +12,35 @@
 </head>
 <body>
 
-<div id="faq-body" class="faq-list">
-<li>If you are using AOL you can use the following settings to configure your emails.</li>
+<div id="faq-body" class="faq-list">	
+If you are using AOL you can use the following settings to configure your emails.
+<br>
+
+<ol type="1">	
 <li>Enter email address and Username.</li>
-<li>Use the following settings</li>
 <br>
-<li><b>Incoming mail server (IMAP): </b>imap.aol.com</li>
-<li>Port: 993</li>
-<li>Use SSL: On</li>
-<br>
-<li><b>Outgoing mail server (SMTP): </b>smtp.aol.com</li>
-<li>Port: 587 or 465</li>
-<li>Use SSL: On</li>
-<li>Use authentication: On</li>
-<li>Use incoming username and password: On</li>
+<li> Use the following settings:
+<br><br>
+<b>Incoming mail server (IMAP): </b>imap.aol.com <br>
+Port: 993 <br>
+Use SSL: On
+<br><br>
+<b>Outgoing mail server (SMTP): </b>smtp.aol.com <br>
+Port: 587 or 465 <br>
+Use SSL: On <br>
+Use authentication: On <br>
+Use incoming username and password: On <br> </li>
+
 <br>
 			
-			<div id="mount-arm-img">
-				<img src="img/outgoing.png" alt="outgoing">	
+			<div id="aol-email-img">
+				<img src="img/outgoing.png" alt="outgoing" style="width:600px;height:490px;">	
 					<br>
 				
 			</div>
 	
 			<br>
+</ol>	
 </div>
 
 </body>

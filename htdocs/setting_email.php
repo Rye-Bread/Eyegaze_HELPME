@@ -13,9 +13,10 @@
 <body>
 
 <div id="faq-body" class="faq-body-area">
-	
-	<div id="mount-arm-in-clamp-img">
-				<img src="img/email.png" alt="email">	
+	Grid 3 allows you to send and receive email using your existing email account.
+	<br><br>
+	<div id="setting-email-img">
+				<img src="img/email.png" alt="email" style="width:600px;height:490px;">	
 				
 			</div>
 			

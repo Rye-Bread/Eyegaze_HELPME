@@ -17,13 +17,13 @@ If you are using an Apple iCloud account, you can use the following settings to 
 			<br>
 			
 			<div id="icloud-email-img">
-				<img src="img/incoming.png" alt="incoming">	
+				<img src="img/incoming.png" alt="incoming" style="width:600px;height:470px;">	
 					<br>
 				
 			</div>
 	
 			<br>
-<b>IMAP server address: </b>imap.mail.me.com</li>
+<b>IMAP server address: </b>imap.mail.me.com
 <br>
 <b>Port: </b>993
 <br>

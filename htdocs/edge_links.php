@@ -13,19 +13,22 @@
 <body> 
 	
 
-<li>[INSERT Eyegaze Edge Link.mp4 HERE]</li>
-<li>Eyegaze Edge® Link Set-Up Instructions: </li>
+[INSERT Eyegaze Edge Link.mp4 HERE]
+<br><br>
+Eyegaze Edge® Link Set-Up Instructions: 
 <ol type="1">
 <li>If this is the first time setting up the Edge Link on your system you need to:</li>
+<ol type="1">
 <li> Make sure the Eyegaze System is running the latest version of software (3-12-13 or later).</li>
 <li>Before inserting the link into the Eyegaze system change your PC Access method in the</li>
+</ol>
 <li>Eyegaze Settings</li>
 <li>Open the “Eyegaze Edge Settings” icon on your desktop</li>
 <br>
 			
 			<div id="Communication-system">
-				<img src="img/communication_system.png" alt="communication">	
-					<br>
+				<img src="img/communication_system.png" alt="communication" style="width:460px;height:400px;">	
+					<br><br>
 
 <li>Select the ‘PC Access” tab</li>
 <li>Pull down the “Comm Link” menu and select “Eyegaze Edge</li>
