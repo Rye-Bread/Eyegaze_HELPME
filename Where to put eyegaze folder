@@ -1,0 +1,3 @@
+/opt/lampp/var/mysql
+just dump the folder inside there. You may need to play around with permissions.
+Alternatively we can just import and export through phpmyadmin.
