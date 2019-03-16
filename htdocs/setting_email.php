@@ -6,15 +6,29 @@
   type="text/css" />
   <title>LC Technologies</title>
   <div id="faq-title" class="faq-title-area">
-    <h2> Setting up your email </h2>
+    <h2> Setting Up Your Email </h2>
  </h2> <br>
 </div>
 </head>
 <body>
 
-<div id="faq-body" class="faq-list">
-[BODY]
+<div id="faq-body" class="faq-body-area">
+	
+	<div id="mount-arm-in-clamp-img">
+				<img src="img/email.png" alt="email">	
+				
+			</div>
+			
+			<br>
+	
+	<ol type="1">	
+		<li>Click on the Menu bar, then Settings, Accounts and Email.</li>
+		<li>Click on the drop down menu, and select your email provider.</li>
+        <li>If you have a Google (Gmail), Microsoft (Outlook.com) or Yahoo account, choose this from the menu.</li>
+        <li>Just enter your username and password, and click Test to verify the settings.</li>
+        <li>Your email will now be available in any grid set for this user which contains an email page.</li>
+        
+	</ol>
 </div>
 
-</body>
-</html>
+<br>

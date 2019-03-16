@@ -30,6 +30,7 @@
 	
 			<div id="mount-arm-in-clamp-img">
 				<img src="img/mount_arm_in_clamp.png" alt="mount-arm-in-clamp">	
+			
 					<br>
 				Arm in Clamp
 			</div>

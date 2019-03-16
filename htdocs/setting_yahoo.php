@@ -6,14 +6,16 @@
   type="text/css" />
   <title>LC Technologies</title>
   <div id="faq-title" class="faq-title-area">
-    <h2> Yahoo specific settings </h2>
+    <h2> Yahoo Specific Settings </h2>
  </h2> <br>
 </div>
 </head>
 <body>
 
 <div id="faq-body" class="faq-list">
-[BODY]
+<li> To use a Yahoo email account, you may need to allow less secure connections.  </li>
+<li>To find out more information visit: </li>
+<a href="https://help.yahoo.com/kb/SLN27791.html">https://help.yahoo.com/kb/SLN27791.html</a>
 </div>
 
 </body>
