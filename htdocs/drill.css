@@ -25,6 +25,17 @@
   clear: both;
 }	
 
+#Footer {
+	display: block;
+	top: 92%;
+	left: 20.5%;
+	width: 69.5%;
+	height: 7%;
+	position: fixed;
+	background-color: #EEEE;
+	border: 1px solid;
+}    
+
 
 
 
