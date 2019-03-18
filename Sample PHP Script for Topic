@@ -1,0 +1,42 @@
+<?php //First open the script with tags.
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+//First we need to get the parameter of the "page" we want to view
+$page = $_GET['title'];//making a variable called page to hold the parameter. We don't have to do this, but I'm showing it for your knowledge.
+//For example, the URL might now be localhost/topic.php&title=camera_alignment
+
+//now with the correct page title, we can ask the database for everything it has on the record with the title "camera_alignment"
+
+//This below is the a version that uses prepared statements.
+//1) Prepare the statement
+$stmt = $conn->prepare("select * from topics where title = ?");
+//2) Bind the values of the variable. In this case not a string but the $page variable.
+$stmt->bind_param($page);
+//So our constructed query would be "select * from topics where title = camera alignment"
+//This should retrieve exactly one record with multiple columns when we execute it.
+
+//3) Execute the query, then retrieve the results into the $result variable.
+$result = $stmt->execute();
+//4) Churn out our result set into an array so we can use the data in the webpage.
+$row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+//No loops are needed since we are only expecting to receive one row in the first place.
+//row is an array in the same order as the columns of the database.
+//You can now
+//for example, you can get the title of the webpage from $row[0], or the text from $row[1].
+
+
+//Close both our query and our database connection.
+$stmt->close();
+$conn->close();
+
+//now end the script.
+//Note: If this all doesn't work for some reason with mysqli, we can try PDO (more flexible but more difficult).
+//Note: When you close your php script, the variables get deleted. You can store them in session variables if you like to use them between scripts.
+//    $SESSION_['myvariable'] = "mystring"; //Can be any data, not just strings.
+//You probably won't need this though, since to dynamically generate the whole webpage, the same PHP script can encompass it all,
+//You'll just need to use the "echo" function to output any html.
+?>
