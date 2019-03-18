@@ -25,7 +25,7 @@ $result = $stmt->execute();
 $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
 //No loops are needed since we are only expecting to receive one row in the first place.
 //row is an array in the same order as the columns of the database.
-//You can now
+//You can now use the elements of this array to construct the webpage.
 //for example, you can get the title of the webpage from $row[0], or the text from $row[1].
 
 
