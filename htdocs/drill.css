@@ -1,44 +1,36 @@
-.body
-{
-	background-color: #EEEE;
+#logo{
+	width: 100px; 
+	float:left; 
+	height:100px; 
+	/*background:gray;*/ 
+	margin:0px;
 }
-.header
-{
-	float:left;
-	
+#Header{
+	background-color: orange; 
+	width: 1250px; 
+	float:left; 
+	height:100px; 
+	margin:0px;
 }
-* {
-  box-sizing: border-box;
+#leftcolumn{
+	background-color:gray;
+	float: left;
+	width: 49%;
+	border: 1px solid black;
+	margin: 0px;
 }
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  
+#rightcolumn{
+	background-color:gray;
+	float: right;
+	width: 50%;
+	border: 1px solid black;
+	margin: 0px;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  /*content: "";*/
-  display: table;
-  clear: both;
-}	
-
-#Footer {
-	display: block;
-	top: 92%;
-	left: 20.5%;
-	width: 69.5%;
-	height: 7%;
-	position: fixed;
-	background-color: #EEEE;
-	border: 1px solid;
-}    
-
-
-
-
-
-
+#help{
+	width: 300px;
+	float:right; 
+	height:100px; 
+	background:gray;
+	margin:0px;
+}
 
