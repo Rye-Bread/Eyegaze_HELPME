@@ -3,14 +3,13 @@
 	
 <head>
 	
-  <link rel="stylesheet" href="newfaqstyle.css" type="text/css" />
+  <link rel="stylesheet" href="topicsfaqstyle.css" type="text/css" />
   
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
   
   <title>FAQs</title>
   
   <div class="header">  
-
 	<table style="width: 100%">
 		<tbody>
 			<tr>
@@ -21,14 +20,9 @@
 			</tr>
 		</tbody>
 	</table>
-
   </div>
   
-</head>
-
-<body>
-	
-	<div id="scroll">	
+  <div id="scroll">	
 		<button onclick="scrollWin(0, 50)" id="scrollButton">Scroll down</button>
 		<button onclick="scrollWin(0, -50)" id="scrollButton">Scroll up</button>
 		<!--<button onclick="scrollWin(100, 0)">Scroll right</button>
@@ -42,9 +36,12 @@
 	</div>
 	
 	<button id="topBtn" class="topBtn"><a href="">Back to the top</a></button>
-
+	
 	<br><br>
 	
+</head>
+
+<body>
 	<div id="FAQtitle">
 	FAQs
 	</div>

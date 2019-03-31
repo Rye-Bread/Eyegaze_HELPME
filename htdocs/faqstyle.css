@@ -1,35 +1,79 @@
 *{
-	font-family: "Calibri", Arial; sans-serif;
-	--main-bg-color: rgba(120, 150, 250, .30);
-
-
+	font-family: Calibri, sans-serif;
+	--main-bg-color: rgba(150, 150, 150, .30);
 }
- #FAQIntro {
-	 margin: auto;
-	 margin-bottom: 2%;
-	 margin-top: 1%;
-	 width: 85%;
-	 color: Black;
-	 font-size: 100%;
-	 padding: 4px;
-	 font-weight: bold;
-	 text-align: center;
-	 border: 2px none;
-   border-radius: 20px;
-	 background-color: var(--main-bg-color);
-	 background-image: url("FAQBG.png");
-	 background-repeat: no-repeat;
-	 background-size:12% 50%;
+
+.header {
+	background-color: white;
+	border-bottom: 1px solid black;
+	position: sticky;
+	position: -webkit-sticky; /* Safari */
+	font-size: small;
+	top: 0; 
+	width: 100%; /* Full width */
+	transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+.phoneicon {
+	vertical-align: -10px;
+}
+
+#FAQtitle {
+ 	 margin: auto;
+	 color: #806000;
+	 font-size: 40px;
+	 font-weight: 300;
 	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+
+#FAQsubtitle {
+	 margin: auto;
+	 color: #2F5496;
+	 font-size: 25px;
+	 font-weight: 330;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+#FAQbody {
+	 font-size: 115%;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
 .faqlist a:link{
-    color:black;
+		color:black;
 		text-decoration: none;
 }
+	
+.faqlist a:visited{
+	  	color:black;
+	  	text-decoration: none;
+}
+	
+.faqlist a:hover{
+	  	color:black;
+	  	text-decoration: none;
+}
+.faqlist a:focus{
+	  	color:black;
+	  	text-decoration: none;
+}
+.faqlist a:active{
+	  	color:black;
+	  	text-decoration: none;
+}
+
 .faqlist li:nth-child(even){ background-color: var(--main-bg-color); }
 .faqlist li{
 	font-size: 115%;
@@ -54,11 +98,122 @@
 	height: 100%;
 	padding-right:0.5%;
 	padding-left: 0.5%;
+	font-family: calibri, sans-serif;
 	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
 			-moz-animation: fadein 5s; /* Firefox < 16 */
 			 -ms-animation: fadein 5s; /* Internet Explorer */
 				-o-animation: fadein 5s; /* Opera < 12.1 */
 					 animation: fadein 5s;
+}
+
+ #sitemapsubtitle {
+	 margin: auto;
+	 color: black;
+	 font-size: 25px;
+	 font-weight: 335;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+ #sitemapbody {
+	 font-size: 115%;
+	 color: #2F5496;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+.sitemaplist a:link{
+	color: #2F5496;
+	text-decoration: none;
+}
+	
+.sitemaplist a:visited{
+	color: #2F5496;
+	text-decoration: none;
+}
+	
+.sitemaplist a:hover{
+	color: #2F5496;
+	text-decoration: none;
+}
+.sitemaplist a:focus{
+	color: #2F5496;
+	text-decoration: none;
+}
+.sitemaplist a:active{
+	color: #2F5496;
+	text-decoration: none;
+}
+
+#scroll {
+	position: fixed;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+#scrollButton {
+	background-color: #404040;
+	color: white;
+	font-size: 115%;
+	height: 30px;
+	width: 200px;
+	padding: .5px;
+	border-radius: 4px;
+}
+
+#scrollButton:hover {
+	background-color:rgb(100,100,100);
+}
+
+#topBtn {
+	style: white;
+	position: fixed;
+	bottom: 10px;
+	float: right;
+	right: 18.5%;
+	left: 77.25%;
+	width: 200px;
+	font-size: 115%;
+	border-color: rgba(85, 85, 85, 0.2);
+	background-color: #806000;
+	padding: .5px;
+	border-radius: 4px;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 5s; /* Firefox < 16 */
+			 -ms-animation: fadein 5s; /* Internet Explorer */
+				-o-animation: fadein 5s; /* Opera < 12.1 */
+					 animation: fadein 5s;
+}
+
+#topBtn:hover {
+	background-color: rgb(100,100,100);
+}
+
+.topBtn a:link{
+		color:white;
+		text-decoration: none;
+}
+	
+.topBtn a:visited{
+	  	color:white;
+	  	text-decoration: none;
+}
+	
+.topBtn a:focus{
+	  	color:white;
+	  	text-decoration: none;
+}
+.topBtn a:active{
+	  	color:white;
+	  	text-decoration: none;
 }
 
 @keyframes fadein {
@@ -79,7 +234,13 @@
 }
 
 @media only screen and (max-width: 320px) {
-	#FAQIntro{
+	#FAQtitle{
+		display: none;
+		}
+	#FAQsubtitle{
+		display: none;
+		}
+	#FAQbody{
 		display: none;
 		}
 	#LeftCol{
@@ -88,5 +249,5 @@
 	#RightCol {
 		display: none;
 		}
-	}
+}
 

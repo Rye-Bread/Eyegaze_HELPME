@@ -10,7 +10,6 @@
   <title>FAQs</title>
   
   <div class="header">  
-
 	<table style="width: 100%">
 		<tbody>
 			<tr>
@@ -21,14 +20,9 @@
 			</tr>
 		</tbody>
 	</table>
-
   </div>
   
-</head>
-
-<body>
-
-	<div id="scroll">	
+  <div id="scroll">	
 		<button onclick="scrollWin(0, 50)" id="scrollButton">Scroll down</button>
 		<button onclick="scrollWin(0, -50)" id="scrollButton">Scroll up</button>
 		<!--<button onclick="scrollWin(100, 0)">Scroll right</button>
@@ -42,9 +36,12 @@
 	</div>
 	
 	<button id="topBtn" class="topBtn"><a href="">Back to the top</a></button>
-
+	
 	<br><br>
 	
+</head>
+
+<body>
 	<?php //First open the script with tags.
 	//TODO: Another field in database to allow multiple page formats; this is optional goal.
 	// Create connection
@@ -86,7 +83,7 @@
 	//$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	
 	//echo "hello";
-	//Now we must take the result set and put it in usable variables.
+	//Now we must take the result set and put it i/Volumes/Macintosh%20HD/Applications/XAMPP/xamppfiles/htdocs/topics.phpn usable variables.
 	$row = mysqli_fetch_array($result);
 /////////////////////////////////////////////////////After this line you can use row[] variables.
 	echo "<div id='FAQtitle'>$row[0]</div>";
