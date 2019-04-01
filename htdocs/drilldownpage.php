@@ -7,7 +7,7 @@
 
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
 
-  <title>FAQs</title>
+  <title>Drill Down Page</title>
 
   <div class="header">
 	<table style="width: 100%">
@@ -43,12 +43,12 @@
 
 <body>
 	<div id="FAQtitle">
-	FAQs
+	Welcome to the Drill Down Page, As the name suggests, the problems that you ar experiencing will be drilled down to actionable solutions that you can perform
 	</div>
 
 	<div id="FAQbody">
 	<br>
-	Select from the following list of Hardware and Software FAQs. Browse through these FAQs to find answers to commonly raised questions. Can't find your problem on this page? Try going back and using the Interactive Help Tool.
+	Issues are split between hardware and software, natigate through this drill down site and narrow down the problems you are experiencing to specific actions you can take to fix the issue. Providing your input as you navigate through the site will allow us to figure out the exact issue. 
 	</div>
 
 	<div id="LeftCol" class="faqlist">
@@ -62,8 +62,8 @@
 					  <li><a href="calibration.php" accesskey="1">You are leaning back in your chair to much</a></li>
 					  <li><a href="keyboard_connectivity.php" accesskey="2">You're not sitting in your chair properly</a></li>
 					  <li><a href="camera_connectivity.php" accesskey="3">The camera is not aligned properly</a></li>
-					  <li><a href="error_messages.php" accesskey="4">Error Messages</a></li>
-					  <li><a href="battery_issues.php" accesskey="5">Issues with the Battery</a></li>
+					  <li><a href="error_messages.php" accesskey="4">The sensor is not in its proper position</a></li>
+					  <li><a href="battery_issues.php" accesskey="5"> other hardware problems</a></li>
 					  <li><a href="edge_links.php" accesskey="6">How to set up Edge Links</a></li>
 					</ol>
 	</div>
