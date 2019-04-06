@@ -3,7 +3,7 @@
 	
 <head>
 	
-  <link rel="stylesheet" href="topicsfaqstyle.css" type="text/css" />
+  <link rel="stylesheet" href="faqstyle.css" type="text/css" />
   
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
   
@@ -24,22 +24,6 @@
 
   </div>
   
-  <div id="scroll">	
-		<button onclick="scrollWin(0, 50)" id="scrollButton">Scroll down</button>
-		<button onclick="scrollWin(0, -50)" id="scrollButton">Scroll up</button>
-		<!--<button onclick="scrollWin(100, 0)">Scroll right</button>
-		<button onclick="scrollWin(-100, 0)">Scroll left</button> -->
-		
-		<script>
-			function scrollWin(x, y) {
-			window.scrollBy(x, y);
-			}
-		</script>
-	</div>
-	
-	<button id="topBtn" class="topBtn"><a href="">Back to the top</a></button>
-
-	<br><br>
 </head>
 
 <body>
@@ -51,7 +35,7 @@
 	<div id="FAQbody">
 		<div id="LeftCol" class="faqlist">
 			<ol type="1">		
-			  <li><a href="http://localhost/position_issues.php">Are you position correctly?</a></li>
+			  <li><a href="http://localhost/position_issues.php">Is your Eyegaze Edge positioned correctly?</a></li>
 			  <li><a href="http://localhost/interfaces_issues.php">Having issues with the interface?</a></li>
 			  <li><a href="http://localhost/mounting_issues.php">Having issues with mounting?</a></li>
 			  <li><a href="http://localhost/pattern_issues.php">Problems with calibrating the pattern?</a></li>

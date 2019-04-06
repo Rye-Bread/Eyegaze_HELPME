@@ -3,7 +3,7 @@
 	
 <head>
 	
-  <link rel="stylesheet" href="topicsfaqstyle.css" type="text/css" />
+  <link rel="stylesheet" href="faqstyle.css" type="text/css" />
   
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
   
@@ -24,22 +24,6 @@
 
   </div>
   
-  <div id="scroll">	
-		<button onclick="scrollWin(0, 50)" id="scrollButton">Scroll down</button>
-		<button onclick="scrollWin(0, -50)" id="scrollButton">Scroll up</button>
-		<!--<button onclick="scrollWin(100, 0)">Scroll right</button>
-		<button onclick="scrollWin(-100, 0)">Scroll left</button> -->
-		
-		<script>
-			function scrollWin(x, y) {
-			window.scrollBy(x, y);
-			}
-		</script>
-	</div>
-	
-	<button id="topBtn" class="topBtn"><a href="">Back to the top</a></button>
-
-	<br><br>
 </head>
 
 <body>
@@ -50,9 +34,9 @@
 	<div id="FAQbody">
 		<div id="LeftCol" class="faqlist">
 			<ol type="1">		
-			  <li><a href="http://localhost/navigation_issues.php">Navigation</a></li>
-			  <li><a href="http://localhost/email_issues.php">Email</a></li>
-			  <li><a href="http://localhost/call_center_app.php">Call Center App</a></li>
+			  <li><a href="http://localhost/navigation_issues.php">Having issues with navigating?</a></li>
+			  <li><a href="http://localhost/email_issues.php">Need Assistance with setting up your email?</a></li>
+			  <li><a href="http://localhost/call_center_app.php">Having issues with the call center app?</a></li>
 			</ol>
 		</div>
 	</div>
