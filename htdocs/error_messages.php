@@ -34,8 +34,8 @@
 	<div id="FAQbody">
 		<div id="LeftCol" class="faqlist">
 			<ol type="1">		
-			  <li><a href="http://localhost/9003error.php">Do you see a 9003 Error?</a></li>
-			  <li><a href="http://localhost/9005error.php">Do you see a 9005 Error?</a></li>
+			  <li><a href="http://localhost/9003error.php" accesskey="1">Do you see a 9003 Error?</a></li>
+			  <li><a href="http://localhost/9005error.php" accesskey="2">Do you see a 9005 Error?</a></li>
 			</ol>
 		</div>
 	</div>

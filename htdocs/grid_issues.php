@@ -34,9 +34,9 @@
 	<div id="FAQbody">
 		<div id="LeftCol" class="faqlist">
 			<ol type="1">		
-			  <li><a href="http://localhost/navigation_issues.php">Having issues with navigating?</a></li>
-			  <li><a href="http://localhost/email_issues.php">Need Assistance with setting up your email?</a></li>
-			  <li><a href="http://localhost/call_center_app.php">Having issues with the call center app?</a></li>
+			  <li><a href="http://localhost/navigation_issues.php" accesskey="1">Having issues with navigating?</a></li>
+			  <li><a href="http://localhost/email_issues.php" accesskey="2">Need Assistance with setting up your email?</a></li>
+			  <li><a href="http://localhost/call_center_app.php" accesskey="3">Having issues with the call center app?</a></li>
 			</ol>
 		</div>
 	</div>

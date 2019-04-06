@@ -35,10 +35,10 @@
 	<div id="FAQbody">
 		<div id="LeftCol" class="faqlist">
 			<ol type="1">		
-			  <li><a href="http://localhost/position_issues.php">Is your Eyegaze Edge positioned correctly?</a></li>
-			  <li><a href="http://localhost/interfaces_issues.php">Having issues with the interface?</a></li>
-			  <li><a href="http://localhost/mounting_issues.php">Having issues with mounting?</a></li>
-			  <li><a href="http://localhost/pattern_issues.php">Problems with calibrating the pattern?</a></li>
+			  <li><a href="http://localhost/position_issues.php" accesskey="1">Is your Eyegaze Edge positioned correctly?</a></li>
+			  <li><a href="http://localhost/interfaces_issues.php" accesskey="2">Having issues with the interface?</a></li>
+			  <li><a href="http://localhost/mounting_issues.php" accesskey="3">Having issues with mounting?</a></li>
+			  <li><a href="http://localhost/pattern_issues.php" accesskey="4">Problems with calibrating the pattern?</a></li>
 			</ol>
 		</div>
 	</div>
