@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 14, 2019 at 07:18 PM
+-- Generation Time: Apr 14, 2019 at 08:10 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.40
 
@@ -45,6 +45,22 @@ INSERT INTO `drills` (`Title`, `Question`, `yesoption`, `nooption`, `Format`, `o
 ('Sample Title', 'Is your problem related to item A?', 'drilldown.php?Title=yespage', 'drilldown.php?Title=nopage', 1, NULL),
 ('Test Title', 'Test Question', 'drilldown.php?Title=yespage', 'drilldown.php?Title=nopage', 1, NULL);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `topics`
+--
+
+CREATE TABLE `topics` (
+  `Title` varchar(255) NOT NULL COMMENT 'Title to display',
+  `text` text NOT NULL COMMENT 'Main text describing the problem',
+  `steps` text NOT NULL COMMENT 'Set of steps to fix that can come after one or more pictures',
+  `format` int(11) DEFAULT NULL,
+  `img1` varchar(255) NOT NULL COMMENT 'Mandatory picture or video. ',
+  `img2` varchar(255) DEFAULT NULL COMMENT 'optional',
+  `img3` varchar(255) DEFAULT NULL COMMENT 'optional'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Table used for the topic.php page.';
+
 --
 -- Dumping data for table `topics`
 --
@@ -62,6 +78,12 @@ INSERT INTO `topics` (`Title`, `text`, `steps`, `format`, `img1`, `img2`, `img3`
 -- Indexes for table `drills`
 --
 ALTER TABLE `drills`
+  ADD PRIMARY KEY (`Title`);
+
+--
+-- Indexes for table `topics`
+--
+ALTER TABLE `topics`
   ADD PRIMARY KEY (`Title`);
 COMMIT;
 
