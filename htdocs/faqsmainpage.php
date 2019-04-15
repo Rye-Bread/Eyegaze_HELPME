@@ -3,7 +3,7 @@
 
 <head>
 
-  <link rel="stylesheet" href="faqstyle.css" type="text/css" />
+  <link rel="stylesheet" href="knowledgebase.css" type="text/css" />
 
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
 
@@ -21,7 +21,7 @@
 		</tbody>
 	</table>
   </div>
-  
+
 </head>
 
 <body>

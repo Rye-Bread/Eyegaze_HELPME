@@ -4,6 +4,33 @@
 	--LCBlue: blue;
 }
 
+/* Add in the Divs for the knowledge base template pages (like topic.php) between the two comments here.
+We can plug the appropriate div tags straight into the data entry fields on phpmyadmin
+----------------------------------------------------------------------------------------------------------*/
+#templateTitle {
+	margin: auto;
+	color: #806000;
+	font-size: 40px;
+	font-weight: 300;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 2s; /* Firefox < 16 */
+			 -ms-animation: fadein 2s; /* Internet Explorer */
+				-o-animation: fadein 2s; /* Opera < 12.1 */
+					 animation: fadein 2s;
+}
+
+#templateBody {
+	font-size: 115%;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 2s; /* Firefox < 16 */
+			 -ms-animation: fadein 2s; /* Internet Explorer */
+				-o-animation: fadein 2s; /* Opera < 12.1 */
+					 animation: fadein 2s;
+}
+
+/* This marks the end of divs and classes for knwoledge base template pages
+----------------------------------------------------------------------------------------------------------*/
+
 .header {
 	background-color: white;
 	border-bottom: 1px solid black;

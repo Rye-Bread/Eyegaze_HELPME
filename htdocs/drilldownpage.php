@@ -3,7 +3,7 @@
 
 <head>
 
-  <link rel="stylesheet" href="topicsfaqstyle.css" type="text/css" />
+  <link rel="stylesheet" href="knowledgebase.css" type="text/css" />
 
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
 
@@ -43,17 +43,17 @@
 
 <body>
 	<div id="FAQtitle">
-	Welcome to the Drill Down Page, As the name suggests, the problems that you ar experiencing will be drilled down to actionable solutions that you can perform
+	Welcome to the Self Help page, As the name suggests, the symptoms of the issue that you are experiencing will be used to determine the steps to actionable solutions that you can perform
 	</div>
 
 	<div id="FAQbody">
 	<br>
-	Issues are split between hardware and software, natigate through this drill down site and narrow down the problems you are experiencing to specific actions you can take to fix the issue. Providing your input as you navigate through the site will allow us to figure out the exact issue. 
+	Issues are split between hardware and software, natigate through this drill down site and narrow down the problems you are experiencing to specific actions you can take to fix the issue. Providing your input as you navigate through the site will allow us to figure out the exact issue.
 	</div>
 
 	<div id="LeftCol" class="faqlist">
 		<br>
-		<header id="FAQsubtitle">IS IT HARDWARE</header>
+		<header id="FAQsubtitle">HARDWARE</header>
 		<ol type="1">
 			<!--Use the file name instead of copying the URL from your browser like the links below
 			As long as the file is in htdocs, it should automatically detect it and open the page
@@ -70,7 +70,7 @@
 
 	<div id="RightCol" class="faqlist">
 		<br>
-		<header id="FAQsubtitle">IS IT SOFTWARE</header>
+		<header id="FAQsubtitle">SOFTWARE</header>
 		<ol type="1">
 		  <li><a href="grid_issues.php" accesskey="a">You're device is not calibrated properly</a></li>
 		  <li><a href="networking_issues.php" accesskey="b">You're nto sitting in your chair properly</a></li>

@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-	
+
 <head>
-	
-  <link rel="stylesheet" href="faqstyle.css" type="text/css" />
-  
+
+  <link rel="stylesheet" href="knowledgebase.css" type="text/css" />
+
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
-  
+
   <title>FAQs</title>
-  
-  <div class="header">  
+
+  <div class="header">
 	<table style="width: 100%">
 		<tbody>
 			<tr>
 				<td align="left"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></td>
-				
+
 				<td align="right"><img src="img/phoneicon.png" alt="phoneicon" style="width:40px;height:30px;" class="phoneicon">
 					(800) 393-4293</td>
 			</tr>
 		</tbody>
 	</table>
   </div>
-	
+
 </head>
 
 <body>
@@ -37,19 +37,19 @@
 	}
 	//First we need to get the parameter of the "page" we want to view
 	$page = "Sample Page";
-	
-	
+
+
 	//If there is a particular page we're supposed to be showing, show it. If not, we get the sample stuff.
-  
-  
+
+
   //More php
 		if( isset($_GET['Title']))
-		{$page = $GET['Title'];};
+		{$page = $_GET['Title'];};
 	echo "</div>";
 	//For example, the URL might now be localhost/topic.php&Title=camera_alignment
-	
+
 	//now with the correct page title stored in $page, we can ask the database for everything it has on the record with the title "camera_alignment"
-	
+
 	//Of course, we should sanitize the input so we don't get pwned.
 	$page = strtolower($page);
 	$page = trim($page, "';-");//List of all characters/strings we want removed.
@@ -59,24 +59,24 @@
 	//We won't be using these characters in our page titles anyway.
 	//Doing the Mysql (procedural version)
 	$result = mysqli_query($conn, "SELECT * FROM topics WHERE Title='$page'");//WHERE Title='$page'
-	if($result === FALSE) { 
+	if($result === FALSE) {
 		echo "Query failed";
 	}
-	
+
 	//$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-	
+
 	//echo "hello";
 	//Now we must take the result set and put it i/Volumes/Macintosh%20HD/Applications/XAMPP/xamppfiles/htdocs/topics.phpn usable variables.
 	$row = mysqli_fetch_array($result);
 /////////////////////////////////////////////////////After this line you can use row[] variables.
-	echo "<div id='FAQtitle'>$row[0]</div>";
+	echo "<div id='templateTitle'>$row[0]</div>";
 	echo "<br>";
-	echo "<div id='FAQbody'>$row[1]</div>";
+	echo "<div id='templateBody'>$row[1]</div>";
 	echo "<br>";
-	echo "<div id='FAQbody'>$row[2]</div>";
+	echo "<div id='templateBody'>$row[2]</div>";
 	echo "<br><br>";
 	//The next block shows how you can get the image path from the database and display an image.
-	echo "<div id='FAQbody'><img src= '$row[3]' alt= 'sample image'></div>";
+	echo "<div id='templateBody'><img src= '$row[3]' alt= 'sample image'></div>";
 	echo "<br><br>";
 	//This next block shows how you can use the optional images, but only if they exist:
 	if ($row[4] != NULL)
@@ -86,7 +86,7 @@
 	//Please note that the text that comes from the database IS ALLOWED to have html tags in it.
 	//Close our database connection.
 	$conn->close();
-	
+
 	//now end the script.
 	//Note: If this all doesn't work for some reason with mysqli, we can try PDO (more flexible but more difficult).
 	//Note: When you close your php script, the variables get deleted. You can store them in session variables if you like to use them between scripts.
