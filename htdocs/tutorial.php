@@ -8,4 +8,9 @@
 	header('Location: '.$uri.'/dashboard/');
 	exit;
 ?>
+
+<?php
+include ("footer.inc");
+?>
+
 Something is wrong with the XAMPP installation :-(

@@ -61,3 +61,7 @@ $conn->close();
 //You probably won't need this though, since to dynamically generate the whole webpage, the same PHP script can encompass it all,
 //You'll just need to use the "echo" function to output arbitary amounts of formatted html.
 ?>
+
+<?php
+include ("footer.inc");
+?>

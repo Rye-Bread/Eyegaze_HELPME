@@ -95,5 +95,9 @@
 	//You'll just need to use the "echo" function to output any html.
 	?>
 
+<?php
+include ("footer.inc");
+?>
+
 </body>
 </html>

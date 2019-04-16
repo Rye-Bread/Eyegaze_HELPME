@@ -60,6 +60,9 @@
 		</ol>
 	</div>
 
+<?php
+include ("footer.inc");
+?>
 
 </body>
 </html>
