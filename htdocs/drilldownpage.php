@@ -4,7 +4,7 @@
 <head>
 
   <link rel="stylesheet" href="knowledgebase.css" type="text/css" />
-
+  <link rel="stylesheet" type="text/css" href="footer.css" />
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
 
   <title>Drill Down Page</title>
@@ -77,6 +77,9 @@
 		</ol>
 	</div>
 
+<?php
+include ("footer.inc");
+?>
 
 </body>
 </html>
