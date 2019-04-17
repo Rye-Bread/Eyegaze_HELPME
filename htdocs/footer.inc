@@ -13,7 +13,7 @@
  <div id="main">
  </div>
  </div>
-<center>COPYRIGHT Â© 2019 Â· LC TECHNOLOGIES, ALL RIGHT RESERVED. REUSE BY WRITTEN PERMISSION.</center>
+<center>COPYRIGHT © 2019 LC TECHNOLOGIES, ALL RIGHT RESERVED. REUSE BY WRITTEN PERMISSION.</center>
  <div class="s-m">
  <center>
       Facebook<a href="https://www.facebook.com/EyeGaze"><i
