@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <!DOCTYPE html
    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
@@ -17,13 +15,15 @@
  </div>
 <center>COPYRIGHT Â© 2019 Â· LC TECHNOLOGIES, ALL RIGHT RESERVED. REUSE BY WRITTEN PERMISSION.</center>
  <div class="s-m">
-      Our Facebook<a href="https://www.facebook.com/EyeGaze"><i
-      class="fab fa-facebook"></i></a> Our Twitter<a
+ <center>
+      Facebook<a href="https://www.facebook.com/EyeGaze"><i
+      class="fab fa-facebook"></i></a> Twitter<a
       href="https://twitter.com/eyegaze"><i class="fab fa-twitter-square"></i></a>
-      Our YouTube<a href="https://www.youtube.com/user/EyegazeEdge"><i
-      class="fab fa-youtube-square"></i></a> Our Pintrest<a
+      YouTube<a href="https://www.youtube.com/user/EyegazeEdge"><i
+      class="fab fa-youtube-square"></i></a> Pintrest<a
       href="https://www.pinterest.com/eyegaze/"><i
       class="fab fa-pinterest-square"></i></a>
+</center>
  </div>
  
  <div class="footer-menu">
