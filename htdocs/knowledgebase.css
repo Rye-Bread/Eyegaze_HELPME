@@ -28,6 +28,14 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 					 animation: fadein 2s;
 }
 
+.stepsBody {
+	border-style: groove;
+	border-color: lightgray; 
+	background-color: #CEDBF3;
+	display: inline-block;
+	overflow: auto;
+}
+
 /* This marks the end of divs and classes for knwoledge base template pages
 ----------------------------------------------------------------------------------------------------------*/
 
@@ -137,6 +145,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	margin: auto;
 	width: 100%;
 }
+
 #IndexOptions {
 	padding: 20px;
 	margin: 10px;
@@ -183,6 +192,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 		text-decoration: none;
 		font-size: 150%;
 	}
+	
  #sitemapsubtitle {
 	 margin: auto;
 	 color: black;
@@ -225,72 +235,6 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 .sitemaplist a:active{
 	color: #2F5496;
 	text-decoration: none;
-}
-
-#scroll {
-	position: fixed;
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
-}
-
-#scrollButton {
-	background-color: #404040;
-	color: white;
-	font-size: 115%;
-	height: 30px;
-	width: 200px;
-	padding: .5px;
-	border-radius: 4px;
-}
-
-#scrollButton:hover {
-	background-color:rgb(100,100,100);
-}
-
-#topBtn {
-	style: white;
-	position: fixed;
-	bottom: 10px;
-	float: right;
-	right: 18.5%;
-	left: 77.25%;
-	width: 200px;
-	font-size: 115%;
-	border-color: rgba(85, 85, 85, 0.2);
-	background-color: #806000;
-	padding: .5px;
-	border-radius: 4px;
-	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-			-moz-animation: fadein 5s; /* Firefox < 16 */
-			 -ms-animation: fadein 5s; /* Internet Explorer */
-				-o-animation: fadein 5s; /* Opera < 12.1 */
-					 animation: fadein 5s;
-}
-
-#topBtn:hover {
-	background-color: rgb(100,100,100);
-}
-
-.topBtn a:link{
-		color:white;
-		text-decoration: none;
-}
-
-.topBtn a:visited{
-	  	color:white;
-	  	text-decoration: none;
-}
-
-.topBtn a:focus{
-	  	color:white;
-	  	text-decoration: none;
-}
-.topBtn a:active{
-	  	color:white;
-	  	text-decoration: none;
 }
 
 @keyframes fadein {

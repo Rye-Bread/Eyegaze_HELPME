@@ -13,7 +13,7 @@
 	<table style="width: 100%">
 		<tbody>
 			<tr>
-				<td align="left"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></td>
+				<td align="left"><a href="http://localhost/index.php"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
 
 				<td align="right"><img src="img/phoneicon.png" alt="phoneicon" style="width:40px;height:30px;" class="phoneicon">
 					(800) 393-4293</td>
@@ -73,7 +73,7 @@
 	echo "<br>";
 	echo "<div id='templateBody'>$row[1]</div>";
 	echo "<br>";
-	echo "<div id='templateBody'>$row[2]</div>";
+	echo "<div id='templateBody' class='stepsBody'>$row[2]</div>";
 	echo "<br><br>";
 	//The next block shows how you can get the image path from the database and display an image.
 	echo "<div id='templateBody'><img src= '$row[3]' alt= 'sample image'></div>";
@@ -81,7 +81,7 @@
 	//This next block shows how you can use the optional images, but only if they exist:
 	if ($row[4] != NULL)
 	{
-	echo "<img src= '$row[4]' alt= 'sample image'>";
+	echo "<div id='templateBody'><img src= '$row[4]' alt= 'sample image'></div>";
 	}
 	//Please note that the text that comes from the database IS ALLOWED to have html tags in it.
 	//Close our database connection.
