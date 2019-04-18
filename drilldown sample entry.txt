@@ -1,0 +1,15 @@
+TITLE
+<div id = "templateTitle"> Camera Issues <br> </div>
+
+QUESTION
+<div id = "templateBody"> Are you having issues calibrating your device? <br> </div>
+
+YES
+<div id = "templateYNLinks">
+<a href="faqsmainpage.php" accesskey="y">If so, use the "Yes" button in your Grid bar to make your selection</a>
+</div>
+
+OPTIONALIMG
+<div id = "templateImages">
+<td align="left"><img src="img/cameraissue.png" alt="cameraIssues" style="width:265px;height:50px;"></td>
+</div>
