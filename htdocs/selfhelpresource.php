@@ -71,12 +71,12 @@
 /////////////////////////////////////////////////////After this line you can use row[] variables.
 	echo "<div id='FAQtitle'>$row[0]</div>";
 	echo "<br>";
-	echo "<div id='FAQbody'>$row[1]</div>";
+	echo "<div id='FAQtitle'>$row[1]</div>";
 	echo "<br>";
-	echo "<div id='FAQbody'>$row[2]</div>";
+	echo "<div id='FAQtitle'>$row[2]</div>";
 	echo "<br><br>";
 	//The next block shows how you can get the image path from the database and display an image.
-	echo "<div id='FAQbody'>$row[3]</div>";
+	echo "<div id='FAQtitle'>$row[3]</div>";
 	echo "<br><br>";
 	//This next block shows how you can use the optional images, but only if they exist:
 	/*
