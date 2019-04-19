@@ -3,10 +3,6 @@
 	padding: 0;
 }
 
-html, body {
-	height: 100%;
-}
-
 #container {
 	min-height: 100%;
 }
@@ -105,4 +101,3 @@ html, body {
 .btn1:hover::before, .btn2:hover::before, .btn3:hover::before, .btn4:hover:before{
 	height: 180%;
 }
-
