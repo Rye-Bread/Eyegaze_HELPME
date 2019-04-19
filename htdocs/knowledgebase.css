@@ -47,6 +47,57 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	overflow: auto;
 }
 
+#selfHelpBody {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 30px;
+	text-align: center;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 2s; /* Firefox < 16 */
+			 -ms-animation: fadein 2s; /* Internet Explorer */
+				-o-animation: fadein 2s; /* Opera < 12.1 */
+					 animation: fadein 2s;
+}
+
+.yesOption {
+	border-style: solid;
+	border-width: thin;
+	border-color: #7FB3D5;
+	background-color: #7FB3D5;
+	overflow: auto;
+}
+
+.noOption {
+	border-style: solid;
+	border-width: thin;
+	border-color: #7FB3D5;
+	background-color: #7FB3D5;
+	overflow: auto;
+}
+
+.optionBody a:link{
+	color: white;
+	text-decoration: none;
+}
+
+.optionBody a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.optionBody a:hover{
+	color: white;
+	text-decoration: none;
+}
+.optionBody a:focus{
+	color: white;
+	text-decoration: none;
+}
+.optionBody a:active{
+	color: white;
+	text-decoration: none;
+}
+
 /* This marks the end of divs and classes for knwoledge base template pages
 ----------------------------------------------------------------------------------------------------------*/
 
@@ -258,6 +309,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	color: #2F5496;
 	text-decoration: none;
 }
+
 
 @keyframes fadein {
     from {opacity:0;}

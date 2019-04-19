@@ -69,15 +69,20 @@
 	//Now we must take the result set and put it i/Volumes/Macintosh%20HD/Applications/XAMPP/xamppfiles/htdocs/topics.phpn usable variables.
 	$row = mysqli_fetch_array($result);
 /////////////////////////////////////////////////////After this line you can use row[] variables.
-	echo "<div id='FAQtitle'>$row[0]</div>";
+	echo "<div id='templateTitle'>$row[0]</div>";
 	echo "<br>";
-	echo "<div id='FAQtitle'>$row[1]</div>";
+	echo "<div id='selfHelpBody'>$row[1]</div>";
 	echo "<br>";
-	echo "<div id='FAQtitle'>$row[2]</div>";
-	echo "<br><br>";
-	//The next block shows how you can get the image path from the database and display an image.
-	echo "<div id='FAQtitle'>$row[3]</div>";
-	echo "<br><br>";
+	
+	echo "<div id='selfHelpBody'>";
+		echo "<table class='optionBody' style='width: 100%'> <tbody> <tr>";
+			echo "<td class='yesOption'>$row[2]</td>";
+			echo "<td class='noOption'>$row[3]</td>";
+		echo "</tr> </tbody> </table>";
+	echo "</div>";
+	
+	echo "<br>";
+	
 	//This next block shows how you can use the optional images, but only if they exist:
 	/*
 	if ($row[4] != NULL)
