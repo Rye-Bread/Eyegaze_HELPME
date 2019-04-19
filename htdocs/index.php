@@ -14,7 +14,7 @@
 	<table style="width: 100%">
 		<tbody>
 			<tr>
-				<td align="left"><a href="http://localhost/index.php"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
+				<td align="left"><a href="index.php"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
 
 				<td align="right"><img src="img/phoneicon.png" alt="phoneicon" style="width:40px;height:30px;" class="phoneicon">
 					(800) 393-4293</td>
@@ -42,7 +42,7 @@
         use the FAQ to go straight to the help topic.</p>
     </div>
     <div id = "IndexOptions" class="IndexPage">
-      <a href="interactiveHelpTool.php" accesskey="b">B - Interactive Help Tool</a>
+      <a href="selfhelpresource.php?Title=Hardware%20Issue" accesskey="b">B - Interactive Help Tool</a>
       <p> The Interactive Help Tool can help you narrow down the source of your issues. It can provide helpful suggestions,
         troubleshooting steps, and useful products for you to get the most out of your Eyegaze Edge experience. If you're having an
         issue and you're not sure why or how it is happening, use this tool and answer a series of questions to find your solution.</p>

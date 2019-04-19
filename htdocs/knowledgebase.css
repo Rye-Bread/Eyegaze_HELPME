@@ -267,7 +267,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	}
 	
  #sitemapsubtitle {
-	 margin: auto;
+	 margin-left: 20px;
+	 margin-right: 20px;
 	 color: black;
 	 font-size: 25px;
 	 font-weight: 335;
@@ -287,6 +288,12 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+
+.sitemaplist {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .sitemaplist a:link{
 	color: #2F5496;
 	text-decoration: none;
