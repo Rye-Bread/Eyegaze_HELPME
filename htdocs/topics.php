@@ -76,12 +76,12 @@
 	echo "<div id='templateBody' class='stepsBody'>$row[2]</div>";
 	echo "<br><br>";
 	//The next block shows how you can get the image path from the database and display an image.
-	echo "<div id='templateBody'><img src= '$row[4]' alt= 'sample image'></div>";
+	echo "<div id='templateBody' class='imageBody'><img src= '$row[4]' alt= 'sample image'></div>";
 	echo "<br><br>";
 	//This next block shows how you can use the optional images, but only if they exist:
 	if ($row[5] != NULL)
 	{
-	echo "<div id='templateBody'><img src= '$row[5]' alt= 'sample image'></div>";
+	echo "<div id='templateBody' class='imageBody'><img src= '$row[5]' alt= 'sample image'></div>";
 	}
 	//Please note that the text that comes from the database IS ALLOWED to have html tags in it.
 	//Close our database connection.
@@ -98,6 +98,5 @@
 <?php
 include ("footer.inc");
 ?>
-
 </body>
 </html>

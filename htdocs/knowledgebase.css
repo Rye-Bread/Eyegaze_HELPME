@@ -8,7 +8,8 @@
 We can plug the appropriate div tags straight into the data entry fields on phpmyadmin
 ----------------------------------------------------------------------------------------------------------*/
 #templateTitle {
-	margin: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 	color: #806000;
 	font-size: 40px;
 	font-weight: 300;
@@ -20,6 +21,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 }
 
 #templateBody {
+	margin-left: 20px;
+	margin-right: 20px;
 	font-size: 115%;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 			-moz-animation: fadein 2s; /* Firefox < 16 */
@@ -30,8 +33,16 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 
 .stepsBody {
 	border-style: groove;
-	border-color: lightgray; 
+	border-color: #D6DBDF; 
 	background-color: #CEDBF3;
+	display: inline-block;
+	overflow: auto;
+}
+
+.imageBody {
+	border-style: solid;
+	border-color: #808B96;   
+	border-width: thin;
 	display: inline-block;
 	overflow: auto;
 }
@@ -54,8 +65,13 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	vertical-align: -10px;
 }
 
+#body {
+	margin: 50px;
+}
+
 #FAQtitle {
- 	 margin: auto;
+ 	 margin-left: 20px;
+	 margin-right: 20px;
 	 color: #806000;
 	 font-size: 40px;
 	 font-weight: 300;
@@ -67,7 +83,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 }
 
 #FAQsubtitle {
-	 margin: auto;
+	 margin:auto;
 	 color: #2F5496;
 	 font-size: 25px;
 	 font-weight: 330;
@@ -79,6 +95,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 }
 
 #FAQbody {
+	 margin-left: 20px;
+	 margin-right: 20px;
 	 font-size: 115%;
 	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -117,6 +135,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 }
 
 #LeftCol {
+	margin-left: 20px;
+	margin-right: 20px;
 	float: left;
 	width: 45%;
 	height: 100%;
@@ -129,6 +149,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 					 animation: fadein 5s;
 }
 #RightCol {
+	margin-left: 20px;
+	margin-right: 20px;
 	float: left;
 	width: 45%;
 	height: 100%;
