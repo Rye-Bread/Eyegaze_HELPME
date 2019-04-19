@@ -5,8 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="footer.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
  </head>
  <body>
  <div id="container">
