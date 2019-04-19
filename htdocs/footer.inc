@@ -12,7 +12,7 @@
  <div id="container">
  <div id="main">
  </div>
- </div>
+
 <center>COPYRIGHT © 2019 LC TECHNOLOGIES, ALL RIGHT RESERVED. REUSE BY WRITTEN PERMISSION.</center>
  <div class="s-m">
  <center>
