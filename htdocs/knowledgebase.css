@@ -76,6 +76,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	background-color: #7FB3D5;
 	overflow: auto;
 	color: white;
+	vertical-align: top;
 }
 
 .optionBody {
