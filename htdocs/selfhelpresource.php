@@ -78,11 +78,11 @@
 		echo "<table class='optionBody'> <tbody> <tr>";
 		if ($row[5] != NULL)
 		{
-			echo "<div id='selfHelpBody'>$row[5]</div>";
+			echo "<div id='yesOption'>$row[5]</div>";
 		}
 		if ($row[6] != NULL)
 		{
-			echo "<div id='selfHelpBody'>$row[6]</div>";
+			echo "<div id='noOption'>$row[6]</div>";
 		}
 			echo "<td class='yesOption'>$row[2]</td>";
 			echo "<td class='noOption'>$row[3]</td>";

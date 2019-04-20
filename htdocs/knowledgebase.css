@@ -65,7 +65,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	border-color: #7FB3D5;
 	background-color: #7FB3D5;
 	overflow: auto;
-	table-layout : fixed;
+	color: white;
+	vertical-align: top;
 }
 
 .noOption {
@@ -74,11 +75,15 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	border-color: #7FB3D5;
 	background-color: #7FB3D5;
 	overflow: auto;
-	table-layout : fixed;
+	color: white;
+	vertical-align: top;
 }
 
 .optionBody {
-	table-layout : fixed;
+	width: 100%;
+	table-layout: fixed;
+	margin-left:auto; 
+    margin-right:auto; 
 }
 
 .optionBody a:link{
@@ -102,6 +107,11 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 .optionBody a:active{
 	color: white;
 	text-decoration: none;
+}
+
+.hidelink {
+	display: none;
+	overflow: hidden;
 }
 
 /* This marks the end of divs and classes for knwoledge base template pages
@@ -299,7 +309,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 .sitemaplist {
 	margin-left: 20px;
 	margin-right: 20px;
-	table-layout : fixed;
+	width: 100%;
+	table-layout: fixed;
 }
 
 .sitemaplist a:link{

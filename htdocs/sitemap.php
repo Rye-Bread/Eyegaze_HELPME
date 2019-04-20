@@ -50,6 +50,9 @@
 						<td><a href="topics.php?Title=Battery%20Life">
 							Battery Life</a></td>
 						
+						</tr>
+						<tr>
+						
 						<td><a href="topics.php?Title=Battery%20Not%20Charging">
 							Battery Not Charging</a></td>
 						
@@ -59,6 +62,9 @@
 						<td><a href="topics.php?Title=Camera%20Connectivity">
 							Camera Connectivity</a></td>
 
+						</tr>
+						<tr>
+							
 						<td><a href="topics.php?Title=Interface%20Issue">
 							Interface</a></td>
 							
@@ -67,6 +73,9 @@
 						
 						<td><a href="topics.php?Title=Mounting%20Issue">
 							Mounting</a></td>
+						
+						</tr>
+						<tr>
 							
 						<td><a href="topics.php?Title=Device%20Misalignment">
 							Position the Eyegaze Edge</a></td>
@@ -81,7 +90,7 @@
 
 		<header id="sitemapsubtitle">SOFTWARE</header>
 		<br>
-			<table class="sitemaplist" style="width: 100%">
+			<table class="sitemaplist">
 				<tbody>
 					<tr>
 						<td><a href="">
