@@ -61,8 +61,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 
 .yesOption {
 	border-style: solid;
-	border-width: thin;
-	border-color: #7FB3D5;
+	border-width: thick;
+	border-color: white;
 	background-color: #7FB3D5;
 	overflow: auto;
 	color: white;
@@ -71,12 +71,11 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 
 .noOption {
 	border-style: solid;
-	border-width: thin;
-	border-color: #7FB3D5;
+	border-width: thick;
+	border-color: white;
 	background-color: #7FB3D5;
 	overflow: auto;
 	color: white;
-	vertical-align: top;
 }
 
 .optionBody {
@@ -109,7 +108,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	text-decoration: none;
 }
 
-.hidelink {
+#hidelink {
 	display: none;
 	overflow: hidden;
 }
