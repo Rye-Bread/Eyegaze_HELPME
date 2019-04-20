@@ -104,8 +104,8 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 .header {
 	background-color: white;
 	border-bottom: 1px solid black;
-	position: sticky;
-	position: -webkit-sticky; /* Safari */
+	/* position: sticky; */
+	/* position: -webkit-sticky; */
 	font-size: small;
 	top: 0;
 	width: 100%; /* Full width */
