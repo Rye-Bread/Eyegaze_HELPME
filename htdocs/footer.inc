@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
     <title></title>
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
  </head>
  <body>
  <div id="container">
@@ -18,12 +20,12 @@
       class="fab fa-facebook"></i></a> Twitter<a
       href="https://twitter.com/eyegaze"><i class="fab fa-twitter-square"></i></a>
       YouTube<a href="https://www.youtube.com/user/EyegazeEdge"><i
-      class="fab fa-youtube-square"></i></a> Pintrest<a
+      class="fab fa-youtube-square"></i></a> Pinterest<a
       href="https://www.pinterest.com/eyegaze/"><i
       class="fab fa-pinterest-square"></i></a>
 </center>
  </div>
- 
+
  <div class="footer-menu">
 <hr style="height:6px;border:none;color:#2D3697;background-color:#2D3697;" />
  <ul>
@@ -38,7 +40,7 @@
 	</li>
  </ul>
  </div>
- 
+
 <center>For Additional Help, please contact LC Technologies: (800) 393-4293</center>
 </body>
 </html>

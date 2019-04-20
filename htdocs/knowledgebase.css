@@ -33,7 +33,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 
 .stepsBody {
 	border-style: groove;
-	border-color: #D6DBDF; 
+	border-color: #D6DBDF;
 	background-color: #CEDBF3;
 	display: inline-block;
 	overflow: auto;
@@ -41,7 +41,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 
 .imageBody {
 	border-style: solid;
-	border-color: #808B96;   
+	border-color: #808B96;
 	border-width: thin;
 	display: inline-block;
 	overflow: auto;
@@ -217,6 +217,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 #IndexBody{
 	margin: auto;
 	width: 100%;
+	padding: 20px;
 }
 
 #IndexOptions {
@@ -229,11 +230,11 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	overflow: auto;
 	vertical-align: top;
 	height: 300px;
-	width: 35%;
+	width: 45%;
 	text-align: center;
 	font-family: calibri, sans-serif;
 	font-weight: 180;
-	font-size: 130%;
+	font-size: 115%;
 	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
 			-moz-animation: fadein 5s; /* Firefox < 16 */
 			 -ms-animation: fadein 5s; /* Internet Explorer */
@@ -265,7 +266,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 		text-decoration: none;
 		font-size: 150%;
 	}
-	
+
  #sitemapsubtitle {
 	 margin-left: 20px;
 	 margin-right: 20px;
