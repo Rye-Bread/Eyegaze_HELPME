@@ -75,6 +75,10 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	overflow: auto;
 }
 
+.optionBody {
+	table-layout : fixed;
+}
+
 .optionBody a:link{
 	color: white;
 	text-decoration: none;
@@ -97,14 +101,6 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	color: white;
 	text-decoration: none;
 }
-
-window.onload = function() {
-    for(var i = 0; i < document.links.length; i++) {
-        document.links[i].onclick = function() {
-            return false;
-        }
-    }
-};​
 
 /* This marks the end of divs and classes for knwoledge base template pages
 ----------------------------------------------------------------------------------------------------------*/
@@ -301,6 +297,7 @@ window.onload = function() {
 .sitemaplist {
 	margin-left: 20px;
 	margin-right: 20px;
+	table-layout : fixed;
 }
 
 .sitemaplist a:link{

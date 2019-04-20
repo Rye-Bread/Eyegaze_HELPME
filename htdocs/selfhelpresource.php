@@ -75,7 +75,7 @@
 	echo "<br>";
 
 	echo "<div id='selfHelpBody'>";
-		echo "<table class='optionBody' style='width: 100%'> <tbody> <tr>";
+		echo "<table class='optionBody'> <tbody> <tr>";
 		if ($row[5] != NULL)
 		{
 			echo "<div id='selfHelpBody'>$row[5]</div>";
