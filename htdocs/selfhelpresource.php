@@ -5,8 +5,6 @@
 
   <link rel="stylesheet" href="knowledgebase.css" type="text/css" />
   <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
-  <link rel="stylesheet" type="text/css" href="footer.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
 
   <title>FAQs</title>
 
