@@ -98,6 +98,14 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 	text-decoration: none;
 }
 
+window.onload = function() {
+    for(var i = 0; i < document.links.length; i++) {
+        document.links[i].onclick = function() {
+            return false;
+        }
+    }
+};​
+
 /* This marks the end of divs and classes for knwoledge base template pages
 ----------------------------------------------------------------------------------------------------------*/
 
