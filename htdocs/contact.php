@@ -1,0 +1,56 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+ <head>
+ <link rel="stylesheet" href="knowledgebase.css" type="text/css" />
+ <link rel="icon" href="img/eyeicon.png" type="image/gif" sizes="20x16">
+ 
+ <title>Please contact the LC Technologies Support Team</title>
+ 
+ <div class="header">
+	<table style="width: 100%">
+		<tbody>
+			<tr>
+				<td align="left"><a href="index.php"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
+
+				<td align="right"><img src="img/phoneicon.png" alt="phoneicon" style="width:40px;height:30px;" class="phoneicon">
+					(800) 393-4293</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</head>
+  
+<body>
+
+<p> We're sorry the issue you’re having isn’t covered in the knowledge base. You will need to contact a support representative to get further assistance with this issue. Please have the following information ready before you call: 
+	<ul style="list-style-type:circle;">
+  		<li>Any troubleshooting steps you have tried.</li>
+  		<li>Any further issues you discovered from following the steps provided by the knowledge base, if any.</li>
+  		<li>Your Eyegaze Edge system serial number, which can be found on the back side of your keyboard & on your power brick. It is an 8 digit number in XXXX-XXXX format. 
+  		</li>
+	</ul>
+</p>
+
+<p>In order to make sure the support team can properly assist you, please follow the steps below before calling:
+<ul style="list-style-type:circle;">
+  		<li>Have your wireless keyboard on hand & connected. Check to make sure the keyboard works by using the touchpad to move the mouse on your Eyegaze Edge.</li>
+  	    <td align="left"><img src="https://assets.logitech.com/assets/54246/wireless-touch-keyboard-k400-plus.png" alt="Keyboard Image" style="width:150px;height:150px;" class="phoneicon">
+  		<li>Turn on your Eyegaze Edge system & exit out of all applications. You can exit out of the Eyegaze application by pressing the escape (esc) key on your keyboard. You should have the system desktop visible.</li>
+  			<ul>
+       		     <li>Find the “Remote Support” icon on your desktop, which should be in the top row of icons. Double click it.</li>
+        		  <li>Wait until the remote support window pops up, which may take up to 20 seconds.</li>
+        		  <td align="lright"><img src="img/RemoteSupport.png" alt="Remote Support Help Image" style="width:100px;height:100px;" class="phoneicon">
+    		</ul>
+    	</li>
+ </ul>
+</p>
+</body>
+ 
+ <?php
+include ("footer.inc");
+?>
+
+</html>
