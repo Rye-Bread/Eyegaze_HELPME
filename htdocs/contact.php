@@ -25,7 +25,7 @@
   
 <body>
 
-<p> We're sorry the issue you’re having isn’t covered in the knowledge base. You will need to contact a support representative to get further assistance with this issue. Please have the following information ready before you call: 
+<p> We are sorry the issue you’re having isn’t covered in the knowledge base. You will need to contact a support representative to get further assistance with this issue. Please have the following information ready before you call: 
 	<ul style="list-style-type:circle;">
   		<li>Any troubleshooting steps you have tried.</li>
   		<li>Any further issues you discovered from following the steps provided by the knowledge base, if any.</li>
