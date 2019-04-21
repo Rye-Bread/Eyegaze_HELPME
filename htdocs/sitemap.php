@@ -12,7 +12,7 @@
 	<table style="width: 100%">
 		<tbody>
 			<tr>
-				<td align="left"><a href="index.php"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
+				<td align="left"><a href="index.php" accesskey="h"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
 
 				<td align="right"><img src="img/phoneicon.png" alt="phoneicon" style="width:40px;height:30px;" class="phoneicon">
 					(800) 393-4293</td>
@@ -41,46 +41,46 @@
 					<tr>
 						<td><a href="topics.php?Title=9003%20Error">
 							9003 Error</a></td>
-						
+
 						<td><a href="topics.php?Title=9005%20Error">
 							9005 Error</a></td>
-						
+
 						<td><a href="topics.php?Title=Battery%20Life">
 							Battery Life</a></td>
-						
+
 						</tr>
 						<tr>
-						
+
 						<td><a href="topics.php?Title=Battery%20Not%20Charging">
 							Battery Not Charging</a></td>
-						
+
 						<td><a href="">
 							Calibrating the Pattern</a></td>
-							
+
 						<td><a href="topics.php?Title=Camera%20Connectivity">
 							Camera Connectivity</a></td>
 
 						</tr>
 						<tr>
-							
+
 						<td><a href="topics.php?Title=Interface%20Issue">
 							Interface</a></td>
-							
+
 						<td><a href="">
 							Keyboard Connectivity</a></td>
-						
+
 						<td><a href="topics.php?Title=Mounting%20Issue">
 							Mounting</a></td>
-						
+
 						</tr>
 						<tr>
-							
+
 						<td><a href="topics.php?Title=Device%20Misalignment">
 							Position the Eyegaze Edge</a></td>
-					
+
 						<td><a href="">
 							Setting up Edge Links</a></td>
-						
+
 					</tr>
 				</tbody>
 			</table>
@@ -96,7 +96,7 @@
 
 						<td><a href="">
 							Network Issues</a></td>
-						
+
 						<td><a href="">
 							Setting up Email</a></td>
 					</tr>

@@ -12,7 +12,7 @@
 	<table style="width: 100%">
 		<tbody>
 			<tr>
-				<td align="left"><a href="index.php"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
+				<td align="left"><a href="index.php" accesskey="h"><img src="img/LClogo.png" alt="LClogo" style="width:265px;height:50px;" class="LClogo"></a></td>
 
 				<td align="right"><img src="img/phoneicon.png" alt="phoneicon" style="width:40px;height:30px;" class="phoneicon">
 					(800) 393-4293</td>
