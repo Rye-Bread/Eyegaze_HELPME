@@ -468,23 +468,28 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 
 /* This marks the beginning of divs and classes for contact.php
 ----------------------------------------------------------------------------------------------------------*/
-
-#wrap {
-	width: 485px;
+.remoteColumn {
+  float: left;
+  width: 15%;
+  padding: 30px;
 }
 
-.left {
-	width: -250px;
-	height: -240px;
-	float: left;
+.remoteRow::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.right{
-	width: -250px;
-	height: -240px;
-	float: right;
-}	
+.contactFont {
+	line-height: 2em;
+	font-family: Calibri, sans-serif;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
 
+.indentText {
+	padding-left: 1%;
+}
 
 /* This marks the end of divs and classes for contact.php
 ----------------------------------------------------------------------------------------------------------*/
