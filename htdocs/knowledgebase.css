@@ -1,6 +1,7 @@
 *{
 	font-family: Calibri, sans-serif;
 	--main-bg-color: rgba(150, 150, 150, .30);
+	--bg2: rgba(0, 23, 198, .18);
 	--LCBlue: blue;
 }
 
@@ -30,11 +31,30 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 				-o-animation: fadein 2s; /* Opera < 12.1 */
 					 animation: fadein 2s;
 }
+#templateSteps {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 115%;
+	box-shadow: 10px 10px 5px grey;
+	-webkit-animation: 5s ease 0s normal forwards 1 fadein;
+	animation: 5s ease 0s normal forwards 1 fadein;
+}
+#templateImg {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 115%;
+	box-shadow: 10px 10px 5px grey;
+	-webkit-animation: 5s ease 0s normal forwards 1 fadein;
+	animation: 5s ease 0s normal forwards 1 fadein;
+}
+
 
 .stepsBody {
-	border-style: groove;
+	border-style: hidden;
 	border-color: #D6DBDF;
-	background-color: #CEDBF3;
+	background-color: var(--bg2);
+	border-radius: 6px;
 	display: inline-block;
 	overflow: auto;
 }
@@ -58,32 +78,64 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 				-o-animation: fadein 2s; /* Opera < 12.1 */
 					 animation: fadein 2s;
 }
+#selfHelpQuestion {
+
+	font-size: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+	margin-left: 20px;
+  animation: question 2.5s steps(60, end)
+	}
+@keyframes question {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#horizontalbar{
+    width: 90%; height: 1px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color:#806000;
+		opacity: 0.7;
+}
 
 .yesOption {
-	border-style: solid;
-	border-width: thick;
+	font-family: "Calibri", Lucida, sans-serif;
+	font-size: 70%;
+	border-style: hidden;
 	border-color: white;
-	background-color: #7FB3D5;
+	border-radius: 6px;
+	background-color: rgba(0, 198, 16, .50);
+	box-shadow: 10px 10px 5px grey;
 	overflow: auto;
 	color: white;
-	vertical-align: top;
+	vertical-align: middle;
+	padding: 10px;
+	margin-left:auto;
 }
 
 .noOption {
-	border-style: solid;
-	border-width: thick;
+	font-family: "Calibri", Lucida, sans-serif;
+	font-size: 70%;
+	border-style: hidden;
 	border-color: white;
-	background-color: #7FB3D5;
+	border-radius: 6px;
+	background-color: rgba(175, 8, 11, .50);
+	box-shadow: 10px 10px 5px grey;
 	overflow: auto;
 	color: white;
-	vertical-align: top;
+	vertical-align: middle;
+	padding: 10px;
+	margin-right:auto;
 }
 
 .optionBody {
 	width: 100%;
 	table-layout: fixed;
-	margin-left:auto; 
-    margin-right:auto; 
+	border-spacing: 20px 0;
+	-webkit-animation: 7s ease 0s normal forwards 1 fadein;
+	animation: 7s ease 0s normal forwards 1 fadein;
 }
 
 .optionBody a:link{
@@ -339,7 +391,9 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 /* This marks the beginning of divs and classes for footer.inc
 ----------------------------------------------------------------------------------------------------------*/
 #footer {
-	position: relative;	
+	position: relative;
+	-webkit-animation: 8s ease 0s normal forwards 1 fadein;
+	animation: 8s ease 0s normal forwards 1 fadein;
 }
 
 #copyrightText {
@@ -464,36 +518,3 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 		display: none;
 		}
 }
-
-
-/* This marks the beginning of divs and classes for contact.php
-----------------------------------------------------------------------------------------------------------*/
-.remoteColumn {
-  float: left;
-  width: 15%;
-  padding: 30px;
-}
-
-.remoteRow::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.contactFont {
-	line-height: 2em;
-	font-family: Calibri, sans-serif;
-	font-size: 18px;
-	margin-bottom: 30px;
-}
-
-.indentText {
-	padding-left: 1%;
-}
-
-/* This marks the end of divs and classes for contact.php
-----------------------------------------------------------------------------------------------------------*/
-
-
-
-

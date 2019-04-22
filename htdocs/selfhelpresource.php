@@ -70,10 +70,11 @@
 /////////////////////////////////////////////////////After this line you can use row[] variables.
 	echo "<div id='templateTitle'>$row[0]</div>";
 	echo "<br>";
-	echo "<div id='selfHelpBody'>$row[1]</div>";
-	echo "<br>";
+	echo "<div id='selfHelpQuestion'>$row[1]</div>";
+	echo "<br><br> <div id='horizontalbar'> </div>";
 
 	echo "<div id='selfHelpBody'>";
+  echo "<br>";
 		echo "<table class='optionBody'> <tbody> <tr>";
 		if ($row[5] != NULL)
 		{
@@ -88,7 +89,7 @@
 		echo "</tr> </tbody> </table>";
 	echo "</div>";
 
-	echo "<br>";
+	echo "<br><br>";
 
 	//This next block shows how you can use the optional images, but only if they exist:
 	/*
