@@ -22,10 +22,13 @@
 	</table>
 </div>
 </head>
+
+<div id="contactTitle">
 <h1>Please Contact the LC Technologies Support Team</h1>
+</div>
 
 <body>
-<div class="imageBody">
+<div class="contactBody">
 <div class="contactFont">
 <p>
 <div class="indentText"> 
@@ -45,7 +48,9 @@ In order to make sure the support team can properly assist you, please follow th
 </div>
 <ul style="list-style-type:circle;">
   		<li>Have your wireless keyboard on hand & connected. Check to make sure the keyboard works by using the touchpad to move the mouse on your Eyegaze Edge.</li>
-  	    <td align="left"><img src="https://assets.logitech.com/assets/54246/wireless-touch-keyboard-k400-plus.png" alt="Keyboard Image" style="width:200px;height:200px;" class="phoneicon">
+  	    <div class="remoteRow">
+  	    <img src="https://assets.logitech.com/assets/54246/wireless-touch-keyboard-k400-plus.png" alt="Keyboard Image" style="width:200px;height:200px;">
+  	    </div>
   		<li>Turn on your Eyegaze Edge system & exit out of all applications. You can exit out of the Eyegaze application by pressing the escape (esc) key on your keyboard. You should have the system desktop visible.</li>
   			<ul>
        		     <li>Find the “Remote Support” icon on your desktop, which should be in the top row of icons. Double click it.</li>

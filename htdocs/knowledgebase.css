@@ -1,7 +1,6 @@
 *{
 	font-family: Calibri, sans-serif;
 	--main-bg-color: rgba(150, 150, 150, .30);
-	--bg2: rgba(0, 23, 198, .18);
 	--LCBlue: blue;
 }
 
@@ -31,30 +30,11 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 				-o-animation: fadein 2s; /* Opera < 12.1 */
 					 animation: fadein 2s;
 }
-#templateSteps {
-	padding: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	font-size: 115%;
-	box-shadow: 10px 10px 5px grey;
-	-webkit-animation: 5s ease 0s normal forwards 1 fadein;
-	animation: 5s ease 0s normal forwards 1 fadein;
-}
-#templateImg {
-	margin-left: 20px;
-	margin-right: 20px;
-	font-size: 115%;
-	box-shadow: 10px 10px 5px grey;
-	-webkit-animation: 5s ease 0s normal forwards 1 fadein;
-	animation: 5s ease 0s normal forwards 1 fadein;
-}
-
 
 .stepsBody {
-	border-style: hidden;
+	border-style: groove;
 	border-color: #D6DBDF;
-	background-color: var(--bg2);
-	border-radius: 6px;
+	background-color: #CEDBF3;
 	display: inline-block;
 	overflow: auto;
 }
@@ -78,64 +58,32 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 				-o-animation: fadein 2s; /* Opera < 12.1 */
 					 animation: fadein 2s;
 }
-#selfHelpQuestion {
-
-	font-size: 30px;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-	margin-left: 20px;
-  animation: question 2.5s steps(60, end)
-	}
-@keyframes question {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-#horizontalbar{
-    width: 90%; height: 1px;
-		margin-left: auto;
-		margin-right: auto;
-		background-color:#806000;
-		opacity: 0.7;
-}
 
 .yesOption {
-	font-family: "Calibri", Lucida, sans-serif;
-	font-size: 70%;
-	border-style: hidden;
+	border-style: solid;
+	border-width: thick;
 	border-color: white;
-	border-radius: 6px;
-	background-color: rgba(0, 198, 16, .50);
-	box-shadow: 10px 10px 5px grey;
+	background-color: #7FB3D5;
 	overflow: auto;
 	color: white;
-	vertical-align: middle;
-	padding: 10px;
-	margin-left:auto;
+	vertical-align: top;
 }
 
 .noOption {
-	font-family: "Calibri", Lucida, sans-serif;
-	font-size: 70%;
-	border-style: hidden;
+	border-style: solid;
+	border-width: thick;
 	border-color: white;
-	border-radius: 6px;
-	background-color: rgba(175, 8, 11, .50);
-	box-shadow: 10px 10px 5px grey;
+	background-color: #7FB3D5;
 	overflow: auto;
 	color: white;
-	vertical-align: middle;
-	padding: 10px;
-	margin-right:auto;
+	vertical-align: top;
 }
 
 .optionBody {
 	width: 100%;
 	table-layout: fixed;
-	border-spacing: 20px 0;
-	-webkit-animation: 7s ease 0s normal forwards 1 fadein;
-	animation: 7s ease 0s normal forwards 1 fadein;
+	margin-left:auto; 
+    margin-right:auto; 
 }
 
 .optionBody a:link{
@@ -391,9 +339,7 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 /* This marks the beginning of divs and classes for footer.inc
 ----------------------------------------------------------------------------------------------------------*/
 #footer {
-	position: relative;
-	-webkit-animation: 8s ease 0s normal forwards 1 fadein;
-	animation: 8s ease 0s normal forwards 1 fadein;
+	position: relative;	
 }
 
 #copyrightText {
@@ -518,3 +464,67 @@ We can plug the appropriate div tags straight into the data entry fields on phpm
 		display: none;
 		}
 }
+
+
+/* This marks the beginning of divs and classes for contact.php
+----------------------------------------------------------------------------------------------------------*/
+#contactTitle {
+ 	 margin-left: 20px;
+	 margin-right: 20px;
+	 color: #806000;
+	 font-size: 27px;
+	 font-weight: 300;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.contactBody {
+	padding: 20px;
+	margin: 10px;
+	border-style: solid;
+	border-radius: 12px;
+	border-color: var(--LCBlue);
+	display: inline-block;
+	overflow: auto;
+	vertical-align: top;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+			-moz-animation: fadein 5s; /* Firefox < 16 */
+			 -ms-animation: fadein 5s; /* Internet Explorer */
+				-o-animation: fadein 5s; /* Opera < 12.1 */
+					 animation: fadein 5s;
+}
+
+
+.contactFont {
+	line-height: 2em;
+	font-family: calibri, sans-serif;
+	font-weight: 180;
+	font-size: 115%;
+	margin-bottom: 30px;
+}
+
+.indentText {
+	padding-left: 1%;
+}
+
+.remoteColumn {
+  float: left;
+  width: 100px;
+  padding: 100px;
+}
+
+.remoteRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* This marks the end of divs and classes for contact.php
+----------------------------------------------------------------------------------------------------------*/
+
+
+
+
