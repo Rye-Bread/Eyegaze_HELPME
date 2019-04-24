@@ -55,16 +55,19 @@ In order to make sure the support team can properly assist you, please follow th
   			<ul>
        		     <li>Find the “Remote Support” icon on your desktop, which should be in the top row of icons. Double click it.</li>
         		  <li>Wait until the remote support window pops up, which may take up to 20 seconds.</li>  
+    <br>
+    <img src="img/RemoteSupportIcon.png" alt="Desktop Image" style="width:18%;height: 200px">
+    <br>
+    <img src="img/RemoteSupport.png" alt="Remote Support Help Image" style="width:18%;height: 310px">
     	    </ul>
     </li>
+ 
+
+
  </ul>
- <div class="remoteRow">
-    <div class="remoteColumn">
-        <img src="img/RemoteSupportIcon.png" alt="Desktop Image" style="width:100%">
-    </div>
-    <div class="remoteColumn">
-        <img src="img/RemoteSupport.png" alt="Remote Support Help Image" style="width:100%">
-    </div> 
+
+    
+            
 </div>
 </p>
 </div>
